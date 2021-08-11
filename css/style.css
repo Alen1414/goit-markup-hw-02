@@ -1,0 +1,25 @@
+body {
+  background: #ffffff;
+}
+ul {
+  list-style: none;
+}
+.page {
+  color: #2a2a2a;
+}
+.list {
+  list-style: none;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: #000;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
