@@ -71,10 +71,7 @@ background-color: var(--second-text-color);
 .hero-button:focus
 
 
-.portfolio-button:hover
-.portfolio-button:focus {
-  color: #2196F3l;
-}
+
 /* ---------банер герой -----------------------------*/
 .baner-colorr{
   background-color: var(--background-second-color);
@@ -162,3 +159,34 @@ color: rgba(255, 255, 255, 0.6);
 
 /* --------------------paje portfolio--------------------*/
 
+.button-portfoli{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+cursor: pointer;
+background-color: #F5F4FA;
+}
+
+.button-portfoli:hover
+.button-button:focus {
+  
+  background-color:var(--second-text-color);
+}
+
+/* --------------------photo--------------------*/
+
+.potfolio-items {
+
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2x;
+
+}
+
+.name-of-itens{
+font-size: 16px;
+line-height: 1.87;
+color: #757575;
+}
