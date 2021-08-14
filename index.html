@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+   
 </head>
 <body class="page">
      <!--шапка-->
     <header class="header"> 
         <nav class="header-nav">
-        <a href="/index.html" class="logo" >WebStudio</a>
+        <a href="/index.html" class="logo" >Web<span class="studio">Studio</span></a> 
 
         
         <ul class="site-nav">
             <li><a href="index.html" class="link">Студия</a></li>
-            <li><a href="Portofilio.html" class="link">Портфолио</a></li>
+            <li><a href="./portfolio/portfolio.html"  class="link">Портфолио</a></li>
             <li><a href="Контакты" class="link">Контакты</a></li>
         </ul>
          </nav>
@@ -30,37 +34,37 @@
      <main>
          <section class="baner-color">
              <h1 class="hero-baner">Эффективные решения для вашего бизнеса</h1>
-          <button class="button"  type="button" >Заказать услугу</button>
+          <button class="hero-button"  type="button" >Заказать услугу</button>
              
          </section>
    
      <!--фишки компани-->
-     <section class="naim-items">
+     <section class="maim-section">
          <h2>Услуги компании</h2>
 
          <ul class="items-company">
          <li>
             <h3>Внимание к деталям</h3>
-            <p class="items-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="items-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
          </li>
          <li>
              <h3>Пунктуальность</h3>
-             <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+             <p class="items-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
          </li>
          <li>
              <h3>Планирование</h3>
-             <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+             <p class="items-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
          <li>
              <h3>Современные технологии</h3>
-         <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+         <p class="items-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
          </li>
         </ul>
    </section>
 
      <!--примеры работ-->
-     <section>
-         <h2>Чем мы занимаемся</h2>
+     <section class="about-work-photo">
+         <h2 class="maim-section">Чем мы занимаемся</h2>
          <ul>
              <li><img src="./images/img.svg" alt="работа за компьютером" width="370" height="294"></li>
              <li><img src="./images/img2.jpeg" alt="синхронизация работы гаджетов" width="370" height="294"></li>
@@ -68,33 +72,33 @@
             </ul>
      </section>
       <!--сотрудники компании-->
-      <section>
+      <section class="stuf-block">
           
-          <h2>Наша команда</h2>
+          <h2 class="maim-section">Наша команда</h2>
 
           <ul>
               <li>
                  <img src="./images/compressjpeg/foto1-min.jpeg" alt="сотрудник Игорь Демьяненко" width="270" height="260">
-                <h3>Игорь Демьяненко</h3>
-                <p lang="en">Product Designer</p>
+                <h3 class="stuf-name">Игорь Демьяненко</h3>
+                <p lang="en" class="stuf-position">Product Designer</p>
              </li>
             <li>
                 <img src="./images/compressjpeg/foto2-min.jpeg" alt="сотрудник Ольга Репина" width="270" height="260">
-                <h3>Ольга Репина</h3>
+                <h3 class="stuf-name">Ольга Репина</h3>
                
-                    <p lang="en">Frontend Developer</p> 
+                    <p lang="en" class="stuf-position">Frontend Developer</p> 
             </li>
             <li>
                 <img src="./images/compressjpeg/foto3-min.jpeg" alt="сотрудник Николай Тарасов" width="270" height="260">
-                <h3>Николай Тарасов</h3>
+                <h3 class="stuf-name">Николай Тарасов</h3>
                
-                     <p lang="en">Marketing</p>  
+                     <p lang="en" class="stuf-position">Marketing</p>  
             </li>
     <li>
         <img src="./images/compressjpeg/foto4-min.jpeg" alt="сотрудник Михаил Ермаков" width="270" height="260">
-        <h3>Михаил Ермаков</h3>
+        <h3 class="stuf-name">Михаил Ермаков</h3>
         <p>
-            <p lang="en">UI Designer</p>  
+            <p lang="en" class="stuf-position">UI Designer</p>  
     </li>
         </ul>
         </section>
@@ -102,21 +106,25 @@
 
 <!--подвал-->
      <footer>
+         <section class="footer-color adress-nav">
 
-    <a href="/index.html">WebStudio</a>
-    <address> 
-          <ul class="site-nav">
-            <li>
-                <a href="https://goo.gl/maps/uqQYcD5dmdb6yFgy8" class="link" rel="noopener noopener"> г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li>
-                <a href="maltoinfo@example.com" class="link">info@example.com</a>
-            </li>
-            <li>
-               <a href="tel+380991111111" class="link">+38 099 111 11 11</a> 
-            </li>
-    </ul>
-    </address>
+            <a href="/index.html" class="logo" >Web<span class="studio-white">Studio</span></a> 
+
+
+         <address>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/uqQYcD5dmdb6yFgy8" rel="noopener noopener" class="footer-address"> г. Киев, пр-т Леси
+                            Украинки, 26</a>
+                    </li>
+                    <li>
+                        <a href="maltoinfo@example.com" class="footer-mail"">info@example.com</a>
+                    </li>
+                    <li>
+                        <a href="tel+380991111111" class="footer-tel ">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+        </address>
 </footer>
 </body>
 </html>
