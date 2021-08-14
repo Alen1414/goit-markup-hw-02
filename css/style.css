@@ -1,25 +1,97 @@
-body {
-  background: #ffffff;
-}
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #2196F3;
+  --white-color-text: #FFFFFF;
+  --background-second-color: #2F303A;
+  --background-first-color:  #E5E5E5;
+  --background-therd-color: #F5F4FA;
+ } 
+
+ 
+ body {
+  font-family: "Roboto", sans-serif;
+} 
+
+/*.page {
+  color: #2a2a2a;
+}*/
 ul {
   list-style: none;
 }
-.page {
-  color: #2a2a2a;
-}
-.list {
-  list-style: none;
-}
+
+
+/* logo */ 
+ .logo {
+   color: ;
+   font-family: Raleway; 
+   font-size: 26px;
+   line-height: 1.20; 
+ }
+
+ .link {
+  text-decoration: none;
+  color: #000;
+ }
 
 /* site nav */
-
-.site-nav .link {
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #000;
-}
+  }
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
 .site-nav .link.current {
   color: #2196f3;
+}
+
+/* button-общая */
+
+.hero-button{
+  
+font-weight: bold;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+color: var(--white-color-text);
+background-color: var(--second-text-color);
+}
+
+.portfolio-button:hover
+.portfolio-button:focus {
+  color: #2196F3l;
+}
+/* банер герой */
+.hero-baner {
+ 
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--white-color-text);
+}
+
+
+/* фишки компании */
+.items-company{
+ font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.items-description {
+
+font-size: 14px;
+line-height: 1.7;
+color: #757575;
+
 }
